@@ -18,9 +18,11 @@ Also this project doesn't do automatic platform and architecture detection in an
 |Function argument|`lowerCase`|
 |Function argument - output pointer|`lowerCase_out`|
 |Function error id (const)|`gb_<function_name>_ALLCAPS`|
+|Function pointer typedefs|`gb_PFN_snake_case`|
 |Structs|`gb_sTitleCase`|
 |Classes (structs that shouldn't be created directly)|`gb_cTitleCase`|
 |Struct field|`lowerCase`|
+|Struct fields - function pointers|`snake_case`|
 |Local variables|`lowerCase`|
 
 `gb` can be replaced with longer module name (e.g. `gbapp_win32`)
@@ -30,7 +32,3 @@ The project itself consists of several independent libraries for different purpo
 
 ### GBAPP-WIN32
 Application layer for win32 platform. Provides you with window creation, window configuration functions. Also provides creation of wgl or dx contexts.
-    
-### GB2D-OPENGL
-2D drawing library powered by OpenGL3.3.
-    
