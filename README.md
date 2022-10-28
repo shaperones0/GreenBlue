@@ -13,7 +13,8 @@ Also this project doesn't do automatic platform and architecture detection in an
 |-|-|
 |Macros|`GB_ALLCAPS`|
 |Global constants|`GB_ALLCAPS`|
-|Enum|`GB_eTitleCase`|
+|Enum|`gb_eTitleCase`|
+|Masks|`gb_mTitleCase`|
 |Functions|`gb_snake_case`|
 |Function argument|`lowerCase`|
 |Function argument - output pointer|`lowerCase_out`|
